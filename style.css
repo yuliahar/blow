@@ -1,0 +1,111 @@
+.wrapper {
+    height: 100vh;
+    width: 93.75%;
+    background: url("./assets/images/Group 1@1X.png");
+    background-size: cover;
+    margin-left: 6.25%;
+}
+
+.header {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 900;
+    margin: 30px 0 0 30px;
+}
+
+.navbar {
+    width: 480px;
+    margin: 30px 30px 0 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+}
+
+.navbar ul li {
+    width: 100px;
+    height: 41px;
+    border-radius: 20px;
+}
+
+.navbar ul li a {
+     display: flex;
+     width: 100px;
+     height: 41px;
+     border-radius: 20px;
+     color: #000000;
+     font-family: "Montserrat";
+     text-decoration: none;
+     align-items: center;
+     justify-content: center;
+ }
+
+.navbar ul li a:hover {
+    background-color: #000000;
+    color: #FFF;
+}
+
+.explore {
+    margin: 65vh auto 0;
+    width: fit-content;
+    -webkit-box-shadow: 0px 85px 28px -29px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 0px 85px 28px -29px rgba(0, 0, 0, 0.54);
+    box-shadow: 0px 85px 28px -29px rgba(0, 0, 0, 0.54);
+}
+
+.explore button {
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.sidebar {
+    width: 6.25%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar p {
+    transform: rotate(-90deg);
+    width: 500px;
+    margin-left: -210px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    margin-top: 30vh;
+}
+
+.sidebar p span {
+    font-weight: bold;
+}
+
+.sidebar img {
+    width: 40px;
+    height: 36px;
+    display: flex;
+    margin-left: 25%;
+    margin-bottom: 13px;
+}
